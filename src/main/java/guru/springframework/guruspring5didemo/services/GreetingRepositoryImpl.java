@@ -1,5 +1,8 @@
 package guru.springframework.guruspring5didemo.services;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class GreetingRepositoryImpl implements GreetingRepository {
 
     @Override
